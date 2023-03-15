@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Z-indax</title>
+ <style>
+    div{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+    }
+    #a{
+        background-color: aqua;
+        left: 50px;
+        top: 50px;
+        z-index: 3;
+    }
+    #b{
+        left: 150px;
+        top: 150px;
+        background-color: rgb(29, 216, 32);
+        z-index: 2;
+    }
+    #c{
+        left: 250px;
+        top: 250px;
+        background-color: rgb(66, 10, 199);
+        z-index: 2;
+    }
+    #d{
+        left: 350px;
+        top: 350px;
+        background-color: rgb(205, 101, 21);
+        z-index: 5;
+    }
+
+ </style>
+</head>
+<body>
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+    <div id="d"></div>
+</body>
+</html>
